@@ -13,13 +13,12 @@ repository = "https://github.com/pahwaranger/sql_to_pypika"
 python = "^3.8"
 PyPika = "^0.48.9"
 sly = "^0.4"
-click = "^8.0.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.1"
-black = "^22.1.0"
 pytest-cov = "^3.0.0"
 flake8 = "^4.0.1"
+black = "^22.3.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

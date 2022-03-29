@@ -6,15 +6,6 @@ Helper util for converting raq SQL expressions to PyPika objects. This is neithe
 
 ## Usage
 
-Testing:
-
-```sh
-> poetry run python -m sql_to_pypika.cli eval --tables="[('foo', 'f')]" --sql="fizz=1"
-"f"."fizz"=1
-```
-
-Usage:
-
 ```py
 tables = [("foo", "foo"), ("bar", "b")]
 evaluator = ExpressionEvaluator(tables)
@@ -26,7 +17,6 @@ type(result)   # pypika.terms.BasicCriterion
 result = evaluator.eval("bar.fizz = 1")
 print(result)  # "b"."fizz"=1'
 type(result)   # pypika.terms.BasicCriterion
-
 ```
 
 ## Disclaimer
