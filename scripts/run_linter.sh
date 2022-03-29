@@ -13,3 +13,7 @@ fi
 
 poetry install
 poetry run black . --line-length 120 $EXTRA_ARGS
+
+echo -e "${BLUE}Running 'flake8' validation${RESET}"
+poetry run flake8 sql_to_pypika --ignore=E203,W503,F811
+echo -e "${BLUE}Done.${RESET}"

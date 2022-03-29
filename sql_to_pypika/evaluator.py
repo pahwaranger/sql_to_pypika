@@ -20,5 +20,5 @@ class ExpressionEvaluator(object):
         tokens = self.lexer.tokenize(expression)
         result = self.parser.parse(tokens)
         if result is None:
-            raise Exception(f"Unable to parse. Either expression is invalid or unsupported.")
+            raise Exception("Unable to parse. Either expression is invalid or unsupported.")
         return result

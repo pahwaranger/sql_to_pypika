@@ -1,6 +1,5 @@
 import ast
 import click
-import pypika
 
 from .evaluator import ExpressionEvaluator
 

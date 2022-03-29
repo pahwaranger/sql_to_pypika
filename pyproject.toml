@@ -2,8 +2,12 @@
 name = "sql_to_pypika"
 version = "0.1.0"
 description = "Convert raw SQL to Pypika Objects"
+keywords = ["pypika", "sql"]
+readme = "README.md"
 authors = ["Amit Pahwa <amit@amitpahwa.com>"]
 license = "MIT"
+homepage = "https://github.com/pahwaranger/sql_to_pypika"
+repository = "https://github.com/pahwaranger/sql_to_pypika"
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -15,6 +19,7 @@ click = "^8.0.4"
 pytest = "^7.1.1"
 black = "^22.1.0"
 pytest-cov = "^3.0.0"
+flake8 = "^4.0.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
