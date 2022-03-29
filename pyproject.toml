@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sql_to_pypika"
+version = "0.1.0"
+description = "Convert raw SQL to Pypika Objects"
+authors = ["Amit Pahwa <amit@amitpahwa.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyPika = "^0.48.9"
+sly = "^0.4"
+click = "^8.0.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.1"
+black = "^22.1.0"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
