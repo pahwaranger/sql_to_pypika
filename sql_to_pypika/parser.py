@@ -3,6 +3,7 @@ Although the code in appears broken with inspection, it is not. Sly uses some ha
 https://sly.readthedocs.io/en/latest/sly.html#writing-a-parser
 """
 
+import logging
 from sly import Parser
 from pypika import (
     Bracket,
@@ -33,10 +34,13 @@ from .decorators import _
 from .exceptions import ExpressionSyntaxError
 from .builders import build_analytic, build_case
 
+logger = logging.getLogger(__file__)
+logger.setLevel(logging.ERROR)
 AGGREGATE_FUNCTION_NAMES = {"COUNT", "SUM", "SUM_FLOAT", "MIN", "MAX", "AVG", "STD", "STDDEV", "APPROXIMATE_PERCENTILE"}
 
 
 class PyPikaParser(Parser):
+    log = logger
     # Uncomment this in order to write debug logs
     # debugfile = 'parser.out'
 

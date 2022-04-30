@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sql_to_pypika"
-version = "0.1.1"
+version = "0.1.3"
 description = "Convert raw SQL to Pypika Objects"
 keywords = ["pypika", "sql"]
 readme = "README.md"

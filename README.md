@@ -1,6 +1,6 @@
 # sql_to_pypika
 
-[![Tests Status](https://github.com/pahwaranger/sql_to_pypika/workflows/Tests/badge.svg?branch=master&event=push)](https://github.com/pahwaranger/sql_to_pypika/actions/workflows/test.yml?query=event%3Apush+branch%3Amaster) [![codecov](https://codecov.io/gh/pahwaranger/sql_to_pypika/branch/master/graph/badge.svg?token=7T2VXRNGON)](https://codecov.io/gh/pahwaranger/sql_to_pypika) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![](https://img.shields.io/pypi/v/sql_to_pypika.svg?maxAge=3600&color=informational)](https://pypi.org/project/sql_to_pypika/) [![Tests Status](https://github.com/pahwaranger/sql_to_pypika/workflows/Tests/badge.svg?branch=master&event=push)](https://github.com/pahwaranger/sql_to_pypika/actions/workflows/test.yml?query=event%3Apush+branch%3Amaster) [![codecov](https://codecov.io/gh/pahwaranger/sql_to_pypika/branch/master/graph/badge.svg?token=7T2VXRNGON)](https://codecov.io/gh/pahwaranger/sql_to_pypika) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 Helper util for converting raq SQL expressions to PyPika objects. This is neither comprehensive nor perfect. My hope with creating a repo for this is that if people are interested then we can expand on this from here.
 
